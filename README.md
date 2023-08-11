@@ -1,0 +1,2 @@
+# UAS_AKB_10120148
+Tugas pengganti UAS AKB Genap 2022/2023
