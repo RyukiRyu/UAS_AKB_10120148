@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.profileFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fotoProfile"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:paddingTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/devprofile" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"
+            android:text="@string/title_nama"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fotoProfile"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNIM"
+            android:text="@string/title_nim"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtName"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtKelas"
+            android:text="@string/title_kelas"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtNIM"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtKelas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50pt"
+            android:text="@string/logout"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</FrameLayout>

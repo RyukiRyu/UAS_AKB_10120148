@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.infoFragment1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoTitle"
+        android:text="Informasi Aplikasi"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iconLogo"
+        android:layout_below="@id/txtInfoTitle"
+        android:src="@drawable/iconlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInfo1"
+        android:text="Let Me Keep Your Notes"
+        android:layout_below="@id/iconLogo"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo2"
+        android:layout_below="@id/textInfo1"
+        android:text="Aplikasi ini bernama : Ryuzen Notes"
+        android:textAlignment="textStart"
+        android:paddingStart="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo3"
+        android:layout_below="@id/txtInfo2"
+        android:text="Berguna untuk mengubah catatanmu menjadi lebih portabel tanpa harus membawa catatan manual sepeti buku."
+        android:textAlignment="textStart"
+        android:paddingStart="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo4"
+        android:layout_below="@id/txtInfo3"
+        android:text="😉"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-black"/>
+</RelativeLayout>

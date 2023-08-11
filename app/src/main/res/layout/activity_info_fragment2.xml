@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.infoFragment1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoTitle"
+        android:text="Info"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iconLogo"
+        android:layout_below="@id/txtInfoTitle"
+        android:src="@drawable/iconlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo"
+        android:layout_below="@id/iconLogo"
+        android:text="Nama Aplikasi : Ryuzen Notes"
+        android:textAlignment="textStart"
+        android:paddingStart="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo1"
+        android:layout_below="@id/txtInfo"
+        android:text="Versi : 1.1"
+        android:textAlignment="textStart"
+        android:paddingStart="10dp"/>
+</RelativeLayout>
