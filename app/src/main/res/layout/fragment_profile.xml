@@ -38,12 +38,21 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@id/txtNIM"
             android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:text="ariyandi.10120148@mahasiswa.unikom.ac.id"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txtKelas"
+            android:paddingTop="10dp"
+           android:autoLink="email"/>
 
         <Button
             android:id="@+id/btnLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/txtKelas"
+            android:layout_below="@id/txtEmail"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50pt"
             android:text="@string/logout"
